@@ -2361,8 +2361,8 @@
         "encoding": "utf-8-sig",
         "format": "csv",
         "hashing": "md5",
-        "name": "demanda-mensal-onibus-metropolitano_2026-02",
-        "path": "data/demanda-mensal-onibus-metropolitano_2026-02.csv",
+        "name": "demanda-onibus-metropolitano_2026-02",
+        "path": "data/demanda-onibus-metropolitano_2026-02.csv",
         "profile": "tabular-data-resource",
         "schema": {
           "fields": [
@@ -2389,7 +2389,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Janeiro 2026",
+        "title": "Insira um título humanamente legível para este recurso.",
         "stats": {
           "hash": "c79c97c4f3a4401754e52f74db8656bc",
           "bytes": 20210,
@@ -2397,7 +2397,7 @@
           "rows": 684
         }
       },
-      "time": 0.023,
+      "time": 0.022,
       "scope": [
         "hash-count-error",
         "byte-count-error",
