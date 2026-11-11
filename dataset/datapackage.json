@@ -1,0 +1,46 @@
+{
+  "name": "seinfra_demanda-onibus-metropolitano",
+  "owner_org": "secretaria-de-estado-de-infraestrutura-e-mobilidade-de-minas-gerais-seinfra",
+  "profile": "data-package",
+  "resources": [
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "demanda-mensal-onibus-metropolitano_2026-01",
+      "path": "data/demanda-mensal-onibus-metropolitano_2026-01.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "mes_referencia",
+            "type": "date"
+          },
+          {
+            "name": "cod_linha",
+            "type": "integer"
+          },
+          {
+            "name": "demanda_total",
+            "type": "integer"
+          },
+          {
+            "name": "demanda_gratuidade",
+            "type": "integer"
+          },
+          {
+            "name": "demanda_integracao",
+            "type": "integer"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    }
+  ],
+  "title": "Seinfra_demanda onibus metropolitano"
+}
