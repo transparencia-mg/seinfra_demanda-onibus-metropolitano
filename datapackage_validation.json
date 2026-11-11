@@ -1,0 +1,2361 @@
+{
+  "version": "4.16.6",
+  "time": 0.022,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "demanda-mensal-onibus-metropolitano_2026-01",
+        "path": "data/demanda-mensal-onibus-metropolitano_2026-01.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "mes_referencia",
+              "type": "date"
+            },
+            {
+              "name": "cod_linha",
+              "type": "integer"
+            },
+            {
+              "name": "demanda_total",
+              "type": "integer"
+            },
+            {
+              "name": "demanda_gratuidade",
+              "type": "integer"
+            },
+            {
+              "name": "demanda_integracao",
+              "type": "integer"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "c79c97c4f3a4401754e52f74db8656bc",
+          "bytes": 20210,
+          "fields": 5,
+          "rows": 684
+        }
+      },
+      "time": 0.016,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [
+        {
+          "cell": "300C",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "300C",
+            "2412",
+            "165",
+            "4"
+          ],
+          "rowNumber": 102,
+          "rowPosition": 103,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"300C\" in row \"103\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "301C",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "301C",
+            "74015",
+            "13841",
+            "205"
+          ],
+          "rowNumber": 103,
+          "rowPosition": 104,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"301C\" in row \"104\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "302H",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "302H",
+            "5015",
+            "848",
+            "12"
+          ],
+          "rowNumber": 104,
+          "rowPosition": 105,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"302H\" in row \"105\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "303M",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "303M",
+            "29486",
+            "5420",
+            "1333"
+          ],
+          "rowNumber": 105,
+          "rowPosition": 106,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"303M\" in row \"106\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "304M",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "304M",
+            "23579",
+            "2549",
+            "920"
+          ],
+          "rowNumber": 106,
+          "rowPosition": 107,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"304M\" in row \"107\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "306R",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "306R",
+            "28550",
+            "2509",
+            "0"
+          ],
+          "rowNumber": 107,
+          "rowPosition": 108,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"306R\" in row \"108\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "310C",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "310C",
+            "2888",
+            "324",
+            "228"
+          ],
+          "rowNumber": 108,
+          "rowPosition": 109,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"310C\" in row \"109\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "313M",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "313M",
+            "103402",
+            "21848",
+            "5815"
+          ],
+          "rowNumber": 112,
+          "rowPosition": 113,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"313M\" in row \"113\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "314M",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "314M",
+            "5476",
+            "539",
+            "281"
+          ],
+          "rowNumber": 114,
+          "rowPosition": 115,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"314M\" in row \"115\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "316R",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "316R",
+            "23400",
+            "2400",
+            "5221"
+          ],
+          "rowNumber": 117,
+          "rowPosition": 118,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"316R\" in row \"118\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "317R",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "317R",
+            "1607",
+            "133",
+            "18"
+          ],
+          "rowNumber": 118,
+          "rowPosition": 119,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"317R\" in row \"119\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "405R",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "405R",
+            "1901",
+            "162",
+            "40"
+          ],
+          "rowNumber": 263,
+          "rowPosition": 264,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"405R\" in row \"264\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "411C",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "411C",
+            "259",
+            "83",
+            "0"
+          ],
+          "rowNumber": 269,
+          "rowPosition": 270,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"411C\" in row \"270\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "412H",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "412H",
+            "14079",
+            "2550",
+            "645"
+          ],
+          "rowNumber": 272,
+          "rowPosition": 273,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"412H\" in row \"273\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "413H",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "413H",
+            "6",
+            "0",
+            "0"
+          ],
+          "rowNumber": 274,
+          "rowPosition": 275,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"413H\" in row \"275\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "414R",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "414R",
+            "11219",
+            "1352",
+            "952"
+          ],
+          "rowNumber": 277,
+          "rowPosition": 278,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"414R\" in row \"278\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "415R",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "415R",
+            "15281",
+            "898",
+            "122"
+          ],
+          "rowNumber": 281,
+          "rowPosition": 282,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"415R\" in row \"282\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "416R",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "416R",
+            "3685",
+            "117",
+            "1287"
+          ],
+          "rowNumber": 284,
+          "rowPosition": 285,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"416R\" in row \"285\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "418R",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "418R",
+            "14560",
+            "350",
+            "298"
+          ],
+          "rowNumber": 288,
+          "rowPosition": 289,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"418R\" in row \"289\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "504R",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "504R",
+            "13536",
+            "1881",
+            "115"
+          ],
+          "rowNumber": 363,
+          "rowPosition": 364,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"504R\" in row \"364\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "506C",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "506C",
+            "40742",
+            "3856",
+            "11463"
+          ],
+          "rowNumber": 365,
+          "rowPosition": 366,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"506C\" in row \"366\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "511C",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "511C",
+            "1",
+            "0",
+            "0"
+          ],
+          "rowNumber": 371,
+          "rowPosition": 372,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"511C\" in row \"372\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "512H",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "512H",
+            "2313",
+            "656",
+            "38"
+          ],
+          "rowNumber": 374,
+          "rowPosition": 375,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"512H\" in row \"375\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "515R",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "515R",
+            "3418",
+            "387",
+            "20"
+          ],
+          "rowNumber": 379,
+          "rowPosition": 380,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"515R\" in row \"380\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "518R",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "518R",
+            "28196",
+            "3590",
+            "56"
+          ],
+          "rowNumber": 384,
+          "rowPosition": 385,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"518R\" in row \"385\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "520C",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "520C",
+            "6",
+            "2",
+            "2"
+          ],
+          "rowNumber": 387,
+          "rowPosition": 388,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"520C\" in row \"388\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "521C",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "521C",
+            "12563",
+            "2461",
+            "1372"
+          ],
+          "rowNumber": 388,
+          "rowPosition": 389,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"521C\" in row \"389\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "522H",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "522H",
+            "14118",
+            "3566",
+            "896"
+          ],
+          "rowNumber": 389,
+          "rowPosition": 390,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"522H\" in row \"390\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "523H",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "523H",
+            "4030",
+            "414",
+            "1309"
+          ],
+          "rowNumber": 391,
+          "rowPosition": 392,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"523H\" in row \"392\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "524R",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "524R",
+            "8674",
+            "1345",
+            "830"
+          ],
+          "rowNumber": 395,
+          "rowPosition": 396,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"524R\" in row \"396\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "833R",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "833R",
+            "3831",
+            "834",
+            "217"
+          ],
+          "rowNumber": 623,
+          "rowPosition": 624,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"833R\" in row \"624\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-10",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-10",
+            "19045",
+            "1462",
+            "52"
+          ],
+          "rowNumber": 625,
+          "rowPosition": 626,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-10\" in row \"626\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-12",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-12",
+            "11599",
+            "758",
+            "43"
+          ],
+          "rowNumber": 626,
+          "rowPosition": 627,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-12\" in row \"627\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-13",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-13",
+            "29491",
+            "1820",
+            "252"
+          ],
+          "rowNumber": 627,
+          "rowPosition": 628,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-13\" in row \"628\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-14",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-14",
+            "19796",
+            "1294",
+            "95"
+          ],
+          "rowNumber": 628,
+          "rowPosition": 629,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-14\" in row \"629\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-15",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-15",
+            "1425",
+            "97",
+            "0"
+          ],
+          "rowNumber": 629,
+          "rowPosition": 630,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-15\" in row \"630\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-16",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-16",
+            "15312",
+            "1188",
+            "37"
+          ],
+          "rowNumber": 630,
+          "rowPosition": 631,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-16\" in row \"631\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-17",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-17",
+            "11687",
+            "941",
+            "24"
+          ],
+          "rowNumber": 631,
+          "rowPosition": 632,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-17\" in row \"632\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-18",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-18",
+            "7464",
+            "1033",
+            "33"
+          ],
+          "rowNumber": 632,
+          "rowPosition": 633,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-18\" in row \"633\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-19",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-19",
+            "3505",
+            "431",
+            "9"
+          ],
+          "rowNumber": 633,
+          "rowPosition": 634,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-19\" in row \"634\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-20",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-20",
+            "3722",
+            "695",
+            "33"
+          ],
+          "rowNumber": 634,
+          "rowPosition": 635,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-20\" in row \"635\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-21",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-21",
+            "2544",
+            "222",
+            "24"
+          ],
+          "rowNumber": 635,
+          "rowPosition": 636,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-21\" in row \"636\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-22",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-22",
+            "6122",
+            "542",
+            "88"
+          ],
+          "rowNumber": 636,
+          "rowPosition": 637,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-22\" in row \"637\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-23",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-23",
+            "3975",
+            "711",
+            "3"
+          ],
+          "rowNumber": 637,
+          "rowPosition": 638,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-23\" in row \"638\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-24",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-24",
+            "22361",
+            "1628",
+            "97"
+          ],
+          "rowNumber": 638,
+          "rowPosition": 639,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-24\" in row \"639\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-25",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-25",
+            "11379",
+            "851",
+            "48"
+          ],
+          "rowNumber": 639,
+          "rowPosition": 640,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-25\" in row \"640\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-5",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-5",
+            "15384",
+            "2570",
+            "901"
+          ],
+          "rowNumber": 640,
+          "rowPosition": 641,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-5\" in row \"641\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-6",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-6",
+            "1313",
+            "154",
+            "2"
+          ],
+          "rowNumber": 641,
+          "rowPosition": 642,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-6\" in row \"642\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-7",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-7",
+            "4664",
+            "321",
+            "10"
+          ],
+          "rowNumber": 642,
+          "rowPosition": 643,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-7\" in row \"643\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-8",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-8",
+            "4977",
+            "726",
+            "6"
+          ],
+          "rowNumber": 643,
+          "rowPosition": 644,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-8\" in row \"644\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "AC-9",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "AC-9",
+            "2943",
+            "286",
+            "10"
+          ],
+          "rowNumber": 644,
+          "rowPosition": 645,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"AC-9\" in row \"645\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "CM-10",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "CM-10",
+            "13295",
+            "1588",
+            "605"
+          ],
+          "rowNumber": 645,
+          "rowPosition": 646,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"CM-10\" in row \"646\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "CM-2",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "CM-2",
+            "18946",
+            "1350",
+            "522"
+          ],
+          "rowNumber": 646,
+          "rowPosition": 647,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"CM-2\" in row \"647\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "CM-3",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "CM-3",
+            "17862",
+            "1371",
+            "531"
+          ],
+          "rowNumber": 647,
+          "rowPosition": 648,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"CM-3\" in row \"648\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "CM-5",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "CM-5",
+            "9752",
+            "785",
+            "377"
+          ],
+          "rowNumber": 648,
+          "rowPosition": 649,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"CM-5\" in row \"649\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "CM-6",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "CM-6",
+            "15522",
+            "826",
+            "552"
+          ],
+          "rowNumber": 649,
+          "rowPosition": 650,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"CM-6\" in row \"650\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "CM-8",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "CM-8",
+            "9939",
+            "2074",
+            "266"
+          ],
+          "rowNumber": 650,
+          "rowPosition": 651,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"CM-8\" in row \"651\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "EAB1",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "EAB1",
+            "17020",
+            "3030",
+            "515"
+          ],
+          "rowNumber": 651,
+          "rowPosition": 652,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"EAB1\" in row \"652\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "EAB2",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "EAB2",
+            "19498",
+            "2539",
+            "1583"
+          ],
+          "rowNumber": 652,
+          "rowPosition": 653,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"EAB2\" in row \"653\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "EAB3",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "EAB3",
+            "17643",
+            "2860",
+            "515"
+          ],
+          "rowNumber": 653,
+          "rowPosition": 654,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"EAB3\" in row \"654\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "EAB4",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "EAB4",
+            "47120",
+            "6612",
+            "8761"
+          ],
+          "rowNumber": 654,
+          "rowPosition": 655,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"EAB4\" in row \"655\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "EBM",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "EBM",
+            "101555",
+            "8369",
+            "772"
+          ],
+          "rowNumber": 655,
+          "rowPosition": 656,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"EBM\" in row \"656\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "ECV1",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "ECV1",
+            "6170",
+            "661",
+            "1780"
+          ],
+          "rowNumber": 656,
+          "rowPosition": 657,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"ECV1\" in row \"657\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "ECV2",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "ECV2",
+            "25823",
+            "2181",
+            "3095"
+          ],
+          "rowNumber": 657,
+          "rowPosition": 658,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"ECV2\" in row \"658\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "ECV3",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "ECV3",
+            "19245",
+            "2736",
+            "2671"
+          ],
+          "rowNumber": 658,
+          "rowPosition": 659,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"ECV3\" in row \"659\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "EMG1",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "EMG1",
+            "2965",
+            "464",
+            "58"
+          ],
+          "rowNumber": 659,
+          "rowPosition": 660,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"EMG1\" in row \"660\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "EMG2",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "EMG2",
+            "805",
+            "206",
+            "52"
+          ],
+          "rowNumber": 660,
+          "rowPosition": 661,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"EMG2\" in row \"661\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "EMG3",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "EMG3",
+            "405",
+            "35",
+            "2"
+          ],
+          "rowNumber": 661,
+          "rowPosition": 662,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"EMG3\" in row \"662\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "EMG4",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "EMG4",
+            "3814",
+            "284",
+            "147"
+          ],
+          "rowNumber": 662,
+          "rowPosition": 663,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"EMG4\" in row \"663\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "EMG5",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "EMG5",
+            "10882",
+            "977",
+            "178"
+          ],
+          "rowNumber": 663,
+          "rowPosition": 664,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"EMG5\" in row \"664\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "EMG6",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "EMG6",
+            "1825",
+            "145",
+            "41"
+          ],
+          "rowNumber": 664,
+          "rowPosition": 665,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"EMG6\" in row \"665\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "EMG7",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "EMG7",
+            "20243",
+            "1971",
+            "15134"
+          ],
+          "rowNumber": 665,
+          "rowPosition": 666,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"EMG7\" in row \"666\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "EOI",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "EOI",
+            "91690",
+            "9058",
+            "5212"
+          ],
+          "rowNumber": 666,
+          "rowPosition": 667,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"EOI\" in row \"667\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "EPA",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "EPA",
+            "120418",
+            "10367",
+            "4214"
+          ],
+          "rowNumber": 667,
+          "rowPosition": 668,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"EPA\" in row \"668\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "ERN",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "ERN",
+            "16753",
+            "2503",
+            "865"
+          ],
+          "rowNumber": 668,
+          "rowPosition": 669,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"ERN\" in row \"669\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "ESD",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "ESD",
+            "198039",
+            "18782",
+            "12963"
+          ],
+          "rowNumber": 669,
+          "rowPosition": 670,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"ESD\" in row \"670\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "SAR",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "SAR",
+            "14",
+            "0",
+            "0"
+          ],
+          "rowNumber": 670,
+          "rowPosition": 671,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"SAR\" in row \"671\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "SAR1",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "SAR1",
+            "1985",
+            "118",
+            "983"
+          ],
+          "rowNumber": 671,
+          "rowPosition": 672,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"SAR1\" in row \"672\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "SAR2",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "SAR2",
+            "20521",
+            "2174",
+            "10487"
+          ],
+          "rowNumber": 672,
+          "rowPosition": 673,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"SAR2\" in row \"673\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "TAR",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "TAR",
+            "35544",
+            "3058",
+            "537"
+          ],
+          "rowNumber": 673,
+          "rowPosition": 674,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"TAR\" in row \"674\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "TIB",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "TIB",
+            "66307",
+            "5659",
+            "31375"
+          ],
+          "rowNumber": 674,
+          "rowPosition": 675,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"TIB\" in row \"675\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "TIB7",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "TIB7",
+            "431",
+            "64",
+            "0"
+          ],
+          "rowNumber": 675,
+          "rowPosition": 676,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"TIB7\" in row \"676\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "TJN",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "TJN",
+            "198468",
+            "14191",
+            "140510"
+          ],
+          "rowNumber": 676,
+          "rowPosition": 677,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"TJN\" in row \"677\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "TJN1",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "TJN1",
+            "14151",
+            "1729",
+            "0"
+          ],
+          "rowNumber": 677,
+          "rowPosition": 678,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"TJN1\" in row \"678\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "TMA",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "TMA",
+            "128899",
+            "5205",
+            "96108"
+          ],
+          "rowNumber": 678,
+          "rowPosition": 679,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"TMA\" in row \"679\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "TMA1",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "TMA1",
+            "23874",
+            "1036",
+            "0"
+          ],
+          "rowNumber": 679,
+          "rowPosition": 680,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"TMA1\" in row \"680\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "TSB",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "TSB",
+            "245353",
+            "11187",
+            "211699"
+          ],
+          "rowNumber": 680,
+          "rowPosition": 681,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"TSB\" in row \"681\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "TSB1",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "TSB1",
+            "79393",
+            "9054",
+            "2"
+          ],
+          "rowNumber": 681,
+          "rowPosition": 682,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"TSB1\" in row \"682\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "TSG",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "TSG",
+            "86176",
+            "8539",
+            "72629"
+          ],
+          "rowNumber": 682,
+          "rowPosition": 683,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"TSG\" in row \"683\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "TSG1",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "TSG1",
+            "54679",
+            "4929",
+            "14190"
+          ],
+          "rowNumber": 683,
+          "rowPosition": 684,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"TSG1\" in row \"684\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "TVL",
+          "fieldName": "cod_linha",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2026-01-01",
+            "TVL",
+            "71126",
+            "8561",
+            "53083"
+          ],
+          "rowNumber": 684,
+          "rowPosition": 685,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"TVL\" in row \"685\" and field \"cod_linha\" at position \"2\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        }
+      ],
+      "stats": {
+        "errors": 91
+      },
+      "valid": false
+    }
+  ],
+  "stats": {
+    "errors": 91,
+    "tasks": 1
+  },
+  "valid": false
+}
