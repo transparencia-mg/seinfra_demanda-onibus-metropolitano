@@ -31,8 +31,8 @@ resources:
     encoding: utf-8-sig
     format: csv
     hashing: md5
-    name: demanda-mensal-onibus-metropolitano_2026-02
-    path: data/demanda-mensal-onibus-metropolitano_2026-02.csv
+    name: demanda-onibus-metropolitano_2026-02
+    path: data/demanda-onibus-metropolitano_2026-02.csv
     profile: tabular-data-resource
     schema:
       fields:
@@ -47,5 +47,5 @@ resources:
         - name: demanda_integracao
           type: integer
     scheme: file
-    title: Janeiro 2026
+    title: Insira um título humanamente legível para este recurso.
 title: Demanda ônibus metropolitano
