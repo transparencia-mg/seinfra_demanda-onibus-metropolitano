@@ -56,4 +56,220 @@ resources:
           type: integer
     scheme: file
     title: Fevereiro 2026
+  - description: 'Demanda mensal por linha do transporte metropolitano por ônibus
+      da RMBH (linhas sob gestão da SEINFRA), março de 2026: 695 códigos de linha
+      e 12.854.235 embarques no mês, incluindo gratuidades e integrações. Variantes
+      do mesmo código (ex.: 3793 2) estão somadas no código base. Fonte: bilhetagem
+      eletrônica.'
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: demanda-mensal-onibus-metropolitano_2026-03
+    path: data/demanda-mensal-onibus-metropolitano_2026-03.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: mes_referencia
+          type: string
+        - name: cod_linha
+          type: string
+        - name: demanda_total
+          type: integer
+        - name: demanda_gratuidade
+          type: integer
+        - name: demanda_integracao
+          type: integer
+    scheme: file
+    title: Março 2026
+  - description: 'Demanda mensal por linha do transporte metropolitano por ônibus
+      da RMBH (linhas sob gestão da SEINFRA), abril de 2026: 694 códigos de linha
+      e 11.686.541 embarques no mês, incluindo gratuidades e integrações. Variantes
+      do mesmo código (ex.: 3793 2) estão somadas no código base. Fonte: bilhetagem
+      eletrônica.'
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: demanda-mensal-onibus-metropolitano_2026-04
+    path: data/demanda-mensal-onibus-metropolitano_2026-04.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: mes_referencia
+          type: string
+        - name: cod_linha
+          type: string
+        - name: demanda_total
+          type: integer
+        - name: demanda_gratuidade
+          type: integer
+        - name: demanda_integracao
+          type: integer
+    scheme: file
+    title: Abril 2026
+  - description: 'Demanda mensal por linha do transporte metropolitano por ônibus
+      da RMBH (linhas sob gestão da SEINFRA), maio de 2026: 698 códigos de linha e
+      12.075.144 embarques no mês, incluindo gratuidades e integrações. Variantes
+      do mesmo código (ex.: 3793 2) estão somadas no código base. Fonte: bilhetagem
+      eletrônica.'
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: demanda-mensal-onibus-metropolitano_2026-05
+    path: data/demanda-mensal-onibus-metropolitano_2026-05.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: mes_referencia
+          type: string
+        - name: cod_linha
+          type: string
+        - name: demanda_total
+          type: integer
+        - name: demanda_gratuidade
+          type: integer
+        - name: demanda_integracao
+          type: integer
+    scheme: file
+    title: Maio 2026
+  - description: 'Demanda mensal por linha do transporte metropolitano por ônibus
+      da RMBH (linhas sob gestão da SEINFRA), junho de 2026: 697 códigos de linha
+      e 11.828.616 embarques no mês, incluindo gratuidades e integrações. Variantes
+      do mesmo código (ex.: 3793 2) estão somadas no código base. Fonte: bilhetagem
+      eletrônica.'
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: demanda-mensal-onibus-metropolitano_2026-06
+    path: data/demanda-mensal-onibus-metropolitano_2026-06.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: mes_referencia
+          type: string
+        - name: cod_linha
+          type: string
+        - name: demanda_total
+          type: integer
+        - name: demanda_gratuidade
+          type: integer
+        - name: demanda_integracao
+          type: integer
+    scheme: file
+    title: Junho 2026
+  - description: 'Demanda mensal por linha do transporte metropolitano por ônibus
+      da RMBH (linhas sob gestão da SEINFRA), julho de 2026: 693 códigos de linha
+      e 12.159.556 embarques no mês, incluindo gratuidades e integrações. Variantes
+      do mesmo código (ex.: 3793 2) estão somadas no código base. Fonte: bilhetagem
+      eletrônica.'
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: demanda-mensal-onibus-metropolitano_2026-07
+    path: data/demanda-mensal-onibus-metropolitano_2026-07.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: mes_referencia
+          type: string
+        - name: cod_linha
+          type: string
+        - name: demanda_total
+          type: integer
+        - name: demanda_gratuidade
+          type: integer
+        - name: demanda_integracao
+          type: integer
+    scheme: file
+    title: Julho 2026
+  - description: 'Demanda mensal por linha do transporte metropolitano por ônibus
+      da RMBH (linhas sob gestão da SEINFRA), agosto de 2026: 693 códigos de linha
+      e 12.050.350 embarques no mês, incluindo gratuidades e integrações. Variantes
+      do mesmo código (ex.: 3793 2) estão somadas no código base. Fonte: bilhetagem
+      eletrônica.'
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: demanda-mensal-onibus-metropolitano_2026-08
+    path: data/demanda-mensal-onibus-metropolitano_2026-08.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: mes_referencia
+          type: string
+        - name: cod_linha
+          type: string
+        - name: demanda_total
+          type: integer
+        - name: demanda_gratuidade
+          type: integer
+        - name: demanda_integracao
+          type: integer
+    scheme: file
+    title: Agosto 2026
+  - description: 'Demanda mensal por linha do transporte metropolitano por ônibus
+      da RMBH (linhas sob gestão da SEINFRA), setembro de 2026: 691 códigos de linha
+      e 11.800.739 embarques no mês, incluindo gratuidades e integrações. Variantes
+      do mesmo código (ex.: 3793 2) estão somadas no código base. Fonte: bilhetagem
+      eletrônica.'
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: demanda-mensal-onibus-metropolitano_2026-09
+    path: data/demanda-mensal-onibus-metropolitano_2026-09.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: mes_referencia
+          type: string
+        - name: cod_linha
+          type: string
+        - name: demanda_total
+          type: integer
+        - name: demanda_gratuidade
+          type: integer
+        - name: demanda_integracao
+          type: integer
+    scheme: file
+    title: Setembro 2026
+  - description: 'Demanda mensal por linha do transporte metropolitano por ônibus
+      da RMBH (linhas sob gestão da SEINFRA), outubro de 2026: 699 códigos de linha
+      e 11.810.917 embarques no mês, incluindo gratuidades e integrações. Variantes
+      do mesmo código (ex.: 3793 2) estão somadas no código base. Fonte: bilhetagem
+      eletrônica.'
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: demanda-mensal-onibus-metropolitano_2026-10
+    path: data/demanda-mensal-onibus-metropolitano_2026-10.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: mes_referencia
+          type: string
+        - name: cod_linha
+          type: string
+        - name: demanda_total
+          type: integer
+        - name: demanda_gratuidade
+          type: integer
+        - name: demanda_integracao
+          type: integer
+    scheme: file
+    title: Outubro 2026
 title: Demanda ônibus metropolitano
