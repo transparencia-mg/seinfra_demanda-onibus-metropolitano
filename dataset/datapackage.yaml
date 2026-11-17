@@ -2,7 +2,11 @@ name: seinfra_demanda-onibus-metropolitano
 owner_org: secretaria-de-estado-de-infraestrutura-e-mobilidade-de-minas-gerais-seinfra
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: 'Demanda mensal por linha do transporte metropolitano por ônibus
+      da RMBH (linhas sob gestão da SEINFRA), janeiro de 2026: 684 códigos de linha
+      e 11.125.398 embarques no mês, incluindo gratuidades e integrações. Variantes
+      do mesmo código (ex.: 3793 2) estão somadas no código base. Fonte: bilhetagem
+      eletrônica.'
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -14,9 +18,9 @@ resources:
     schema:
       fields:
         - name: mes_referencia
-          type: date
+          type: string
         - name: cod_linha
-          type: integer
+          type: string
         - name: demanda_total
           type: integer
         - name: demanda_gratuidade
@@ -25,21 +29,25 @@ resources:
           type: integer
     scheme: file
     title: Janeiro 2026
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: 'Demanda mensal por linha do transporte metropolitano por ônibus
+      da RMBH (linhas sob gestão da SEINFRA), fevereiro de 2026: 693 códigos de linha
+      e 10.618.767 embarques no mês, incluindo gratuidades e integrações. Variantes
+      do mesmo código (ex.: 3793 2) estão somadas no código base. Fonte: bilhetagem
+      eletrônica.'
     dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
     hashing: md5
-    name: demanda-onibus-metropolitano_2026-02
-    path: data/demanda-onibus-metropolitano_2026-02.csv
+    name: demanda-mensal-onibus-metropolitano_2026-02
+    path: data/demanda-mensal-onibus-metropolitano_2026-02.csv
     profile: tabular-data-resource
     schema:
       fields:
         - name: mes_referencia
-          type: date
+          type: string
         - name: cod_linha
-          type: integer
+          type: string
         - name: demanda_total
           type: integer
         - name: demanda_gratuidade
@@ -47,5 +55,5 @@ resources:
         - name: demanda_integracao
           type: integer
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Fevereiro 2026
 title: Demanda ônibus metropolitano
