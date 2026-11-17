@@ -5,6 +5,7 @@ Baseado na filosofia [Mantenha um Changelog](https://keepachangelog.com/pt-BR/1.
 
 ### [1.2.0] - 2026-11-17
 
+- Reprocessada a publicação no portal (a sincronização anterior foi interrompida por erro 500 do portal).
 - Incluído o recurso `demanda-mensal-onibus-metropolitano_2026-03` (Março 2026): 695 códigos de linha, 12.854.235 embarques.
 - Incluído o recurso `demanda-mensal-onibus-metropolitano_2026-04` (Abril 2026): 694 códigos de linha, 11.686.541 embarques.
 - Incluído o recurso `demanda-mensal-onibus-metropolitano_2026-05` (Maio 2026): 698 códigos de linha, 12.075.144 embarques.
